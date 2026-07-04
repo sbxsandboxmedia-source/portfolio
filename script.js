@@ -1,1 +1,1 @@
-const t="Graphic Designer.";let i=0;function type(){if(i<t.length){typing.textContent+=t[i++];setTimeout(type,100)}}type();function r(){document.querySelectorAll(".reveal").forEach(e=>{if(e.getBoundingClientRect().top<innerHeight-100)e.classList.add("active")})}addEventListener("scroll",r);r();
+
